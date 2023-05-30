@@ -16,6 +16,7 @@
 
     /* Spacing */
     --spacing-400: 1rem;
+    --spacing-500: 1.25rem;
 
     /* Other */
     --border-radius-200: 10px;
@@ -27,9 +28,14 @@
 
 /*---------------------------- Utilities ---------------------------- */
 
-.padding-400 {
-    padding: var(--spacing-400);
+.padding-inline-400 {
+    padding-inline: var(--spacing-400);
 }
+
+.padding-block-500 {
+    padding-block: var(--spacing-500);
+}
+
 
 .margin-block-end-400 {
     margin-block-end: var(--spacing-400);
